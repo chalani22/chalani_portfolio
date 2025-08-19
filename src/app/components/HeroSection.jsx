@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-12 gap-8">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-green-600">
                             Hello, I'm{" "}
                         </span>
                         <br />
@@ -39,15 +39,38 @@ const HeroSection = () => {
                         I love building smart, user-friendly solutions that make a difference.
                     </p>
                     <div>
+                        {/* Hire Me button */}
+                        <a
+                            href="https://www.linkedin.com/in/chalani-nadeesha-b384b1249/"
+                            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-900 via-green-700 to-green-800 hover:bg-slate-200 text-white inline-block text-center"
+                        >
+                        Hire Me
+                        </a>
+
+                        {/* Download CV button */}
+                        <a
+                            href="/Chalani_Nadeesha_CV.pdf"
+                            download="Chalani_CV.pdf"
+                            className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-green-900 via-green-700 to-green-800 hover:bg-slate-800 text-white mt-3 inline-block"
+                        >
+                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                                Download CV
+                            </span>
+                        </a>
+                    </div>
+
+                 {/*   <div>
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
                             Hire Me
                         </button>
                         <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+                            <a href="/Chalani_Nadeesha_CV.pdf"
+                                download="My_CV.pdf"></a>
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                                 Download CV
                             </span>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                     <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
@@ -55,7 +78,7 @@ const HeroSection = () => {
                             src="/images/hero-image.png"
                             alt="hero image"
                             fill
-                            style={{ objectFit: "cover" }}
+                            style={{ objectFit: "cover", objectPosition: "top" }}
                         />
                     </div>
                 </div>

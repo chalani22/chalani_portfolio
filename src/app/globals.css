@@ -22,12 +22,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #8b5cf6, #ec4899);
+  background: linear-gradient(45deg, #058429, #0b6b13);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, #7c3aed, #db2777);
+  background: linear-gradient(45deg, #058429, #0b6b13);
 }
 
 /* Focus styles for accessibility */
@@ -35,7 +35,7 @@ button:focus,
 input:focus,
 textarea:focus,
 a:focus {
-  outline: 2px solid #8b5cf6;
+  outline: 2px solid #22b15e;
   outline-offset: 2px;
 }
 

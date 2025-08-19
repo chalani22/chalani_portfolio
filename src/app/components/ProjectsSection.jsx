@@ -69,7 +69,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="text-white py-8 px-4 sm:py-16 xl:px-16">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        <h2 className="text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-green-700">
           My Projects
         </h2>
         <p className="text-[#ADB7BE] text-center mb-8 max-w-2xl mx-auto">
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
               onClick={() => handleTagChange(filterTag)}
               className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
                 tag === filterTag
-                  ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white"
+                  ? "bg-gradient-to-r from-green-800 to-green-700 text-white"
                   : "bg-[#181818] text-[#ADB7BE] hover:text-white hover:bg-[#1a1a1a]"
               }`}
             >

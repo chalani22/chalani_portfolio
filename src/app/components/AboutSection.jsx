@@ -12,8 +12,8 @@ const TAB_DATA = [
                 <li>Python, JavaScript, TypeScript</li>
                 <li>React, Next.js, Node.js</li>
                 <li>TensorFlow, PyTorch, Scikit-learn</li>
-                <li>MongoDB, PostgreSQL, Firebase</li>
-                <li>Figma, Adobe XD, UI/UX Design</li>
+                <li>MongoDB, MySQL, Firebase</li>
+                <li>Figma, UI/UX Design</li>
             </ul>
         )
     },
@@ -22,7 +22,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-6 text-[#ADB7BE]">
-                <li>BSC.(Hons) in Computer Science and Software Engineering</li>
+                <li>BSC.(Hons) in Information Technology in Software Engineering</li>
                 <li>Sri Lanka Technology Campus, Padukka</li>
             </ul>
         )
@@ -54,13 +54,13 @@ const AboutSection = () => {
     return (
         <section id="about" className="text-white py-8 px-4 sm:py-16 xl:px-16">
             <div className="md:grid md:grid-cols-2 gap-8 items-center">
-                <div className="w-full h-[300px] md:h-[400px] relative">
+                <div className="w-full relative aspect-[16/13] overflow-hidden rounded-lg group">
                     <Image
                         src="/images/about-image.png"
                         alt="About me"
                         fill
-                        style={{ objectFit: "cover" }}
-                        className="rounded-lg"
+                        style={{ objectFit: "cover", objectPosition: "top" }}
+                        className="transition-transform duration-500 group-hover:scale-110 absolute inset-0 bg-black/30 rounded-lg"
                     />
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">

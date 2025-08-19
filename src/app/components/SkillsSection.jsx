@@ -32,7 +32,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="text-white py-8 px-4 sm:py-16 xl:px-16">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        <h2 className="text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-green-700">
           My Skills
         </h2>
         <p className="text-[#ADB7BE] text-center mb-12 max-w-2xl mx-auto">
@@ -45,14 +45,14 @@ const SkillsSection = () => {
               key={index} 
               className="bg-[#181818] rounded-lg p-6 hover:bg-[#1a1a1a] transition-colors duration-300"
             >
-              <h3 className="text-xl font-semibold mb-4 text-purple-400">
+              <h3 className="text-xl font-semibold mb-4 text-green-700">
                 {skillCategory.category}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {skillCategory.items.map((skill, skillIndex) => (
                   <span 
                     key={skillIndex}
-                    className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1 rounded-full text-sm font-medium"
+                    className="bg-gradient-to-r from-green-900 to-green-700 text-white px-3 py-1 rounded-full text-sm font-medium"
                   >
                     {skill}
                   </span>

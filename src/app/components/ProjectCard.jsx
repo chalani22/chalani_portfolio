@@ -7,7 +7,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, technolog
     <div className="bg-[#181818] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
       {/* Project Image */}
       <div 
-        className="h-52 md:h-72 bg-gradient-to-r from-purple-500 to-pink-500 relative group"
+        className="h-52 md:h-72 bg-gradient-to-r from-green-800 to-green-700 relative group"
         style={{ 
           background: `url(${imgUrl})`, 
           backgroundSize: "cover",
@@ -41,7 +41,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, technolog
           {technologies.map((tech, index) => (
             <span 
               key={index}
-              className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-300 px-2 py-1 rounded text-xs font-medium border border-purple-500/30"
+              className="bg-gradient-to-r from-green-500/20 to-green-500/20 text-green-300 px-2 py-1 rounded text-xs font-medium border border-green-500/30"
             >
               {tech}
             </span>

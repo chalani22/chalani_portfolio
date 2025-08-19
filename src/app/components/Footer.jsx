@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo/Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-green-600 ">
               CHALANI NADEESHA
             </h3>
             <p className="text-[#ADB7BE] text-sm leading-relaxed">
@@ -19,18 +19,18 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4">
               <a 
-                href="https://twitter.com/chalaninadeesha" 
+                href="https://x.com/ChalaniNad59157" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
                 aria-label="Twitter"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                  <path d="M18.244 2.25h3.308l-7.227 8.26L22.5 21.75h-6.422l-4.916-6.455-5.63 6.455H2.223l7.694-8.82L1.5 2.25h6.594l4.457 5.946L18.244 2.25zM17.16 19.5h1.833L7.005 4.5H5.04l12.12 15z"/>
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/in/chalaninadeesha" 
+                href="https://www.linkedin.com/in/chalani-nadeesha-b384b1249/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -41,7 +41,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://github.com/chalaninadeesha" 
+                href="https://github.com/chalani22"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -52,7 +52,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://instagram.com/chalaninadeesha" 
+                href="https://www.instagram.com/_.chalanyy._?igsh=ZXN6b2YwY2wyZWl0" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -101,17 +101,17 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">
-                <svg className="h-4 w-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-4 w-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                 </svg>
-                <span className="text-[#ADB7BE]">chalani.nadeesha@example.com</span>
+                <span className="text-[#ADB7BE]">chalaninadeesha2345@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <svg className="h-4 w-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-4 w-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/>
                 </svg>
-                <span className="text-[#ADB7BE]">Kandy, Sri Lanka</span>
+                <span className="text-[#ADB7BE]">Colombo, Sri Lanka</span>
               </div>
             </div>
             
@@ -122,9 +122,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="flex-1 px-3 py-2 bg-[#1a1a1a] border border-[#333] rounded-l-md text-white text-sm focus:outline-none focus:border-purple-500 transition-colors"
+                  className="flex-1 px-3 py-2 bg-[#1a1a1a] border border-[#333] rounded-l-md text-white text-sm focus:outline-none focus:border-green-800 transition-colors"
                 />
-                <button className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-r-md hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-sm font-medium">
+                <button className="px-4 py-2 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-r-md hover:from-green-900 hover:to-green-700 transition-all duration-300 text-sm font-medium">
                   Subscribe
                 </button>
               </div>
@@ -144,7 +144,7 @@ const Footer = () => {
                 © {new Date().getFullYear()} Chalani Nadeesha. All rights reserved.
               </p>
               <p className="text-[#ADB7BE] text-xs mt-1">
-                Built with ❤️ using Next.js, React & Tailwind CSS
+                Built with 💚🐨 using Next.js, React & Tailwind CSS
               </p>
             </div>
 
