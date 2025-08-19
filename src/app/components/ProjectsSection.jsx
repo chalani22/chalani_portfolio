@@ -8,53 +8,53 @@ const ProjectsSection = () => {
   const projectsData = [
     {
       id: 1,
-      title: "AI-Powered Chatbot",
-      description: "Intelligent chatbot using NLP and machine learning for customer service automation",
+      title: "Emotion Recognition System using ML",
+      description: "Engineered an AI-driven emotion recognition system using computer vision and deep learning models to reliably detect and classify expressions in real time.",
       image: "/images/projects/project1.png",
       tag: ["All", "AI/ML"],
-      gitUrl: "https://github.com/yourusername/ai-chatbot",
+      gitUrl: "https://github.com/Happy-Path/emotion-recognition",
       previewUrl: "https://your-chatbot-demo.com",
-      technologies: ["Python", "TensorFlow", "Flask", "React"]
+      technologies: ["Python", "TensorFlow", "Flask", "OpenCV"]
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with modern UI and secure payment integration",
+      title: "CrickInfo",
+      description: "Developed a squad selector system for Sri Lanka cricket, leveraging player statistics, performance analytics, and selection criteria to generate optimized team lineups",
       image: "/images/projects/project2.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Web", "AI/ML"],
       gitUrl: "https://github.com/yourusername/ecommerce-platform",
       previewUrl: "https://your-ecommerce-demo.com",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"]
+      technologies: ["React", "Node.js", "Flask", "Scikit-learn", "Pandas"]
     },
     {
       id: 3,
-      title: "Mobile Fitness App",
-      description: "Cross-platform fitness tracking app with workout plans and progress monitoring",
+      title: "NIC - Decoder",
+      description: "Designed a NIC decoder system to process and extract structured personal information from National Identity Card numbers efficiently.",
       image: "/images/projects/project3.png",
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/yourusername/fitness-app",
       previewUrl: "https://your-fitness-app-demo.com",
-      technologies: ["React Native", "Firebase", "Redux", "Expo"]
+      technologies: ["Dart", "C", "HTML", "C++"]
     },
     {
       id: 4,
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for business analytics with real-time data visualization",
+      title: "Happy Path - LMS for Down Syndrome Children",
+      description: "Designed and developed a specialized LMS tailored for children with Down syndrome, integrating interactive learning modules, assistive technologies, and accessibility-focused UI/UX",
       image: "/images/projects/project4.png",
       tag: ["All", "AI/ML", "Web"],
       gitUrl: "https://github.com/yourusername/data-dashboard",
       previewUrl: "https://your-dashboard-demo.com",
-      technologies: ["React", "D3.js", "Python", "FastAPI"]
+      technologies: ["Javascript", "Node.js", "Python"]
     },
     {
       id: 5,
-      title: "Portfolio Design System",
-      description: "Comprehensive UI/UX design system with reusable components and style guide",
+      title: "Portfolio - Chalani Nadeesha",
+      description: "Developed a responsive portfolio website using modern web technologies to showcase projects, skills, and achievements with a clean UI/UX design",
       image: "/images/projects/project5.png",
-      tag: ["All", "Design"],
-      gitUrl: "https://github.com/yourusername/design-system",
+      tag: ["All", "Design", "Web"],
+      gitUrl: "https://github.com/chalani22/chalani_portfolio",
       previewUrl: "https://your-design-system-demo.com",
-      technologies: ["Figma", "React", "Storybook", "Tailwind CSS"]
+      technologies: ["Next.js", "Tailwind CSS"]
     }
   ];
 

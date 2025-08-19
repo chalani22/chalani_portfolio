@@ -13,11 +13,11 @@ const SkillsSection = () => {
     },
     {
       category: "Web Development",
-      items: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"]
+      items: ["React", "Next.js", "Node.js", "Tailwind CSS"]
     },
     {
       category: "Mobile Development",
-      items: ["React Native", "Flutter", "Android Studio", "iOS Development"]
+      items: ["React", "Flutter", "Android Studio"]
     },
     {
       category: "Design Tools",
