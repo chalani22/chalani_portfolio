@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       image: "/images/projects/project02.png",
       tag: ["All", "Web", "AI/ML"],
       gitUrl: "https://github.com/yourusername/ecommerce-platform",
-      previewUrl: "https://your-ecommerce-demo.com",
+      previewUrl: "https://cricket-squad-selector.vercel.app/",
       technologies: ["React", "Node.js", "Flask", "Scikit-learn", "Pandas"]
     },
     {
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       image: "/images/projects/project03.png",
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/yourusername/fitness-app",
-      previewUrl: "https://your-fitness-app-demo.com",
+      previewUrl: "",
       technologies: ["Dart", "C", "HTML", "C++"]
     },
     {
@@ -43,7 +43,7 @@ const ProjectsSection = () => {
       image: "/images/projects/project04.png",
       tag: ["All", "AI/ML", "Web"],
       gitUrl: "https://github.com/yourusername/data-dashboard",
-      previewUrl: "https://your-dashboard-demo.com",
+      previewUrl: "",
       technologies: ["Javascript", "Node.js", "Python"]
     },
     {
@@ -89,12 +89,12 @@ const ProjectsSection = () => {
     {
       id: 9,
       title: "To-Do Application",
-      description: "",
+      description: "This project is a Todo management web app built with Next.js (App Router), Better Auth, Prisma, and shadcn/ui, designed to demonstrate secure, real-world access control. It enforces ABAC rules for User, Manager, and Admin roles on both the API and UI, ensuring each role can only perform permitted actions based on role, ownership, and todo status.",
       image: "/images/projects/project09.png",
       tag: ["All", "Web", "Database",],
-      gitUrl: "",
-      previewUrl: "",
-      technologies: ["Next.js", "SQLite", "Figma", "UI/UX"]
+      gitUrl: "https://github.com/chalani22/todo-app",
+      previewUrl: "https://todo-app-delta-cyan-39.vercel.app/sign-in",
+      technologies: ["Next.js", "React", "TypeScript", "SQLite", "Better Auth", "Tailwind CSS"]
     },
 
   ];
@@ -124,8 +124,8 @@ const ProjectsSection = () => {
               key={filterTag}
               onClick={() => handleTagChange(filterTag)}
               className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${tag === filterTag
-                  ? "bg-gradient-to-r from-green-800 to-green-700 text-white"
-                  : "bg-[#181818] text-[#ADB7BE] hover:text-white hover:bg-[#1a1a1a]"
+                ? "bg-gradient-to-r from-green-800 to-green-700 text-white"
+                : "bg-[#181818] text-[#ADB7BE] hover:text-white hover:bg-[#1a1a1a]"
                 }`}
             >
               {filterTag}
