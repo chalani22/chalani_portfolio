@@ -75,7 +75,28 @@ const ProjectsSection = () => {
       gitUrl: "https://github.com/chalani22/flask-auth-lab",
       previewUrl: "",
       technologies: ["Python", "Flask", "SQLite", "JWT"]
-    }
+    },
+    {
+      id: 8,
+      title: "Photography Portfolio",
+      description: "I designed and developed a modern single-page portfolio site-called Lumos Studio. This project helped me sharpen both my frontend skills and my eye for clean UI/UX.",
+      image: "/images/projects/project08.png",
+      tag: ["All", "Web", "Design"],
+      gitUrl: "https://github.com/chalani22/lumos-studio-photography-site",
+      previewUrl: "https://lumos-studio-photography-site.vercel.app/",
+      technologies: ["Next.js", "Typescript", "Figma", "UI/UX"]
+    },
+    {
+      id: 9,
+      title: "To-Do Application",
+      description: "",
+      image: "/images/projects/project09.png",
+      tag: ["All", "Web", "Database",],
+      gitUrl: "",
+      previewUrl: "",
+      technologies: ["Next.js", "SQLite", "Figma", "UI/UX"]
+    },
+
   ];
 
   const handleTagChange = (newTag) => {
@@ -95,18 +116,17 @@ const ProjectsSection = () => {
         <p className="text-[#ADB7BE] text-center mb-8 max-w-2xl mx-auto">
           Here are some of the projects I've worked on, showcasing my skills in AI, web development, mobile apps, and design
         </p>
-        
+
         {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {["All", "AI/ML", "Web", "Mobile", "Design"].map((filterTag) => (
             <button
               key={filterTag}
               onClick={() => handleTagChange(filterTag)}
-              className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
-                tag === filterTag
+              className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${tag === filterTag
                   ? "bg-gradient-to-r from-green-800 to-green-700 text-white"
                   : "bg-[#181818] text-[#ADB7BE] hover:text-white hover:bg-[#1a1a1a]"
-              }`}
+                }`}
             >
               {filterTag}
             </button>
